@@ -1,4 +1,4 @@
-package org.stairsacademy.stairsacademy;
+package org.stairsacademy.aceclub;
 
 import java.util.ArrayList;
 import java.util.List;

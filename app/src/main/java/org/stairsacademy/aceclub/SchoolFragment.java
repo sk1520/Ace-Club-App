@@ -1,4 +1,4 @@
-package org.stairsacademy.stairsacademy;
+package org.stairsacademy.aceclub;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,11 +8,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class GradesFragment extends Fragment {
+public class SchoolFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_grades, container, false);
+        return inflater.inflate(R.layout.fragment_school, container, false);
     }
 }

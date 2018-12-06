@@ -1,4 +1,4 @@
-package org.stairsacademy.stairsacademy;
+package org.stairsacademy.aceclub;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
