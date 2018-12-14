@@ -34,7 +34,7 @@ public class HomeFragment extends Fragment {
         Source: https://www.youtube.com/watch?v=edZwD54xfbk
          */
         ListView classList = (ListView) view.findViewById(R.id.class_list_view);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, data.classes);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), R.layout.custom_list_layout, data.classes);
         classList.setAdapter(adapter);
         classActions(classList);
 
@@ -43,6 +43,8 @@ public class HomeFragment extends Fragment {
 
     /*
     This method is for actions when an item from a list is clicked.
+    When one of the classes is clicked, it should take use to another activity
+    which will contain list of students enrolled in that class.
      */
     public void classActions(ListView listView){
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

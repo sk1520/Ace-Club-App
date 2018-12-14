@@ -34,6 +34,7 @@ public class LoginActivity extends AppCompatActivity{
     private EditText mPassword, mUserName;
     private View mProgressView;
     private View mLoginFormView;
+    //Dummy Database
     private DemoDatabase data = new DemoDatabase();
 
     /*
