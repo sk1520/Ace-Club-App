@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "360701781394",
+    "firebase_url": "https://ace-club-app-master.firebaseio.com",
+    "project_id": "ace-club-app-master",
+    "storage_bucket": "ace-club-app-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360701781394:android:11b8e132cc057639",
+        "android_client_info": {
+          "package_name": "org.stairsacademy.stairsacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360701781394-9hoj5htrr9gscjt57n04isgnpcjqss4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.stairsacademy.stairsacademy",
+            "certificate_hash": "ee5ce68f7a1b524b68aa7634ff8f34f541ed0b13"
+          }
+        },
+        {
+          "client_id": "360701781394-g36i1eue0nci371ni0ddsnpenli2lrmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3VdScsDhcFzzEGS49z8ErkP4pk2aQmpU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360701781394-g36i1eue0nci371ni0ddsnpenli2lrmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
